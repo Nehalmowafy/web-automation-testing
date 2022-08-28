@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/elwady/Desktop/Selenium/New folder/NopCommmerce/src/test">
+        <classes>
+            <class name="Testcases.UserRegistrationTest"/>
+            <class name="Testcases.MyAccountTest"/>
+            <class name="Testcases.Test_Hoveron"/>
+            <class name="Testcases.SearchProductTest"/>
+            <class name="Testcases.SearchProductUsingAutoSuggestTest"/>
+            <class name="Testcases.EmailFriendTest"/>
+            <class name="Testcases.WishListTest"/>
+            <class name="Testcases.ChangeCurrencyTest"/>
+            <class name="Testcases.AddProductToShoppingCartTest"/>
+            <class name="Testcases.CompareTest"/>
+            <class name="Testcases.GuestCheckOutTest"/>
+            <class name="Testcases.ProductReviewTest"/>
+            <class name="Testcases.RegisteredUserCheckoutProductTest"/>
+
+
+
+
+
+
+
+
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/elwady/Desktop/Selenium/New folder/NopCommmerce/src/test(failed)">
+    <classes>
+      <class name="Testcases.GuestCheckOutTest">
+        <methods>
+          <include name="screenshotOnFailure"/>
+          <include name="startDriver"/>
+          <include name="UserCanCheckoutProduct"/>
+          <include name="stopDriver"/>
+        </methods>
+      </class> <!-- Testcases.GuestCheckOutTest -->
+      <class name="Testcases.RegisteredUserCheckoutProductTest">
+        <methods>
+          <include name="screenshotOnFailure"/>
+          <include name="startDriver"/>
+          <include name="UserCanAddProductToShoppingCart"/>
+          <include name="stopDriver"/>
+        </methods>
+      </class> <!-- Testcases.RegisteredUserCheckoutProductTest -->
+      <class name="Testcases.AddProductToShoppingCartTest">
+        <methods>
+          <include name="screenshotOnFailure"/>
+          <include name="UserCanAddProductToShoppingCart"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+        </methods>
+      </class> <!-- Testcases.AddProductToShoppingCartTest -->
+    </classes>
+  </test> <!-- C:/Users/elwady/Desktop/Selenium/New folder/NopCommmerce/src/test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
